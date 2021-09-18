@@ -42,12 +42,15 @@
     </nav>
     <section style="padding: 10px;padding-right: 20px;padding-left: 20px;"><section name="examples">
     <h4>Length Conversion</h4>
-        <input type="text" id="meters" placeholder="Meters">
-        <input type="text" id="feet" placeholder="Feet">
-        <input type="text" id="mass" placeholder="Mass (Grams)">
-        <input type="text" id="weighto" placeholder="Weight (Ounces)">
-
-       <p> <button onclick="generate()">Convert to Dev1t0</button></p>
+        <input class="form-control" type="number" id="meters" placeholder="Meters">
+        <p></p>
+        <input class="form-control" type="number" id="feet" placeholder="Feet">
+        <p></p>
+        <input class="form-control" type="number" id="mass" placeholder="Mass (Grams)">
+        <p></p>
+        <input class="form-control" type="number" id="weighto" placeholder="Weight (Ounces)">
+<p></p>
+       <p> <button type="button" class="btn btn-light" onclick="generate()">Convert to Dev1t0</button></p>
 
         <h4>Output</h4>
         <div style="color: greenyellow; background-color: #1a1a1a;"><code style="color: greenyellow" id="jsoutput">
