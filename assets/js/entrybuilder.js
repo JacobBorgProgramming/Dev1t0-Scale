@@ -9,7 +9,7 @@ function generate(){
 
     var devitof = document.getElementById("feet").value
 
-    document.getElementById("var2").innerHTML = (Math.round(devitof/4.11 * 100) / 100).toFixed(2) + " Dev1t0s (d0)"
+    document.getElementById("var2").innerHTML = (Math.round(devitof/4.93 * 100) / 100).toFixed(2) + " Dev1t0s (d0)"
     
     var devitom = document.getElementById("mass").value
 
