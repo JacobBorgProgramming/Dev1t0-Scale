@@ -8,8 +8,10 @@ function generate(){
 
 
     var devitof = document.getElementById("feet").value
+    document.getElementById("var2").innerHTML = (Math.round(devitof/59 * 100) / 100).toFixed(2) + " Long Dev1t0s (Ld0)"
 
-    document.getElementById("var2").innerHTML = (Math.round(devitof*1.2/4.93 * 100) / 100).toFixed(2) + " Long Dev1t0s (Ld0)"
+
+   /* document.getElementById("var2").innerHTML = (Math.round(devitof*1.2/4.93 * 100) / 100).toFixed(2) + " Long Dev1t0s (Ld0)" */
     
     var devitom = document.getElementById("mass").value
 
