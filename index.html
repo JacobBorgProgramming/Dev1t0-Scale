@@ -40,17 +40,21 @@
             </div>
         </div>
     </nav>
-    <section style="padding: 10px;padding-right: 20px;padding-left: 20px;"><section name="examples">
+    <section style="padding: 10px;padding-right: 20px;padding-left: 20px;">
+        <div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item" role="presentation"><a class="nav-link active link-light" role="tab" data-bs-toggle="tab" href="#tab-1">Meters</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link link-light" role="tab" data-bs-toggle="tab" href="#tab-2">Feet</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link link-light" role="tab" data-bs-toggle="tab" href="#tab-3">Mass</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" role="tabpanel" id="tab-1"><section name="examples">
     <h4>Conversion Calculator</h4>
         <input class="form-control" type="number" id="meters" placeholder="Meters">
         <p></p>
-        <input class="form-control" type="number" id="feet" placeholder="Feet">
-        <p></p>
-        <input class="form-control" type="number" id="inches" placeholder="Inches">
-        <p></p>
-        <input class="form-control" type="number" id="mass" placeholder="Mass (Grams)">
-        <p></p>
-        <input class="form-control" type="number" id="weighto" placeholder="Weight (Ounces)">
+        <input class="form-control" type="number" id="kph" placeholder="Speed (Kilometer Per Hour)">
+
+
 <p></p>
        <p> <button type="button" class="btn btn-light" onclick="generate()">Convert to Dev1t0</button></p>
 
@@ -58,10 +62,8 @@
         <div style="color: greenyellow; background-color: #1a1a1a;"><code style="color: greenyellow" id="jsoutput">
             <p id="function"></p>
             <p id="var1"></p>
-            <p id="var2"></p>
-            <p id="var3"></p>
-            <p id="var4"></p>
-            <p id="var5"></p>
+            
+            <p id="var7"></p>
             
 
 
@@ -70,7 +72,64 @@
 
 
 </section>
-<script src="./entrybuilder.js"></script>
+<script src="./entrybuilder.js"></script></div>
+                <div class="tab-pane" role="tabpanel" id="tab-2"><section name="examples">
+    <h4>Conversion Calculator</h4>
+
+        <input class="form-control" type="number" id="feet" placeholder="Feet">
+        <p></p>
+        <input class="form-control" type="number" id="inches" placeholder="Inches">
+        <p></p>
+        <input class="form-control" type="number" id="mph" placeholder="Speed (Miles Per Hour)">
+ 
+<p></p>
+       <p> <button type="button" class="btn btn-light" onclick="generate()">Convert to Dev1t0</button></p>
+
+        <h4>Output</h4>
+        <div style="color: greenyellow; background-color: #1a1a1a;"><code style="color: greenyellow" id="jsoutput">
+            <p id="function"></p>
+
+            <p id="var2"></p>
+            <p id="var3"></p>
+
+            <p id="var6"></p>         
+            
+
+
+        </code></div>
+
+
+
+</section>
+<script src="./entrybuilder.js"></script></div>
+                <div class="tab-pane" role="tabpanel" id="tab-3"><section name="examples">
+    <h4>Conversion Calculator</h4>
+
+        <input class="form-control" type="number" id="mass" placeholder="Mass (Grams)">
+        <p></p>
+        <input class="form-control" type="number" id="weighto" placeholder="Weight (Ounces)">
+
+<p></p>
+       <p> <button type="button" class="btn btn-light" onclick="generate()">Convert to Dev1t0</button></p>
+
+        <h4>Output</h4>
+        <div style="color: greenyellow; background-color: #1a1a1a;"><code style="color: greenyellow" id="jsoutput">
+            <p id="function"></p>
+
+            <p id="var4"></p>
+            <p id="var5"></p>
+
+            
+
+
+        </code></div>
+
+
+
+</section>
+<script src="./entrybuilder.js"></script></div>
+            </div>
+        </div>
         <h1>Labels</h1>
         <p>Dev1t0 (Length/Distance) = Ld0 (AKA, Long Dev1t0s)</p>
         <p>Dev1t0 (Mass/Weight) = Md0 (AKA, Mass Dev1t0s)</p>
